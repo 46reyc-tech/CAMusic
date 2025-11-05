@@ -1,3 +1,10 @@
+
+@media screen {
+    article{
+        width: clamp(200px, 50%, 600px);
+    }
+}
+
 body{
     background-color: rgb(11, 86, 41);
 }
@@ -32,6 +39,8 @@ body{
     padding-left: 48px;
     padding-right: 48px;
     
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 .textrate{
@@ -43,10 +52,11 @@ body{
     border-style: solid;
     border-width: 5px;
     
-
     padding-top: 5px;
     padding-bottom: 5px;
-    
+
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 .textpay{
@@ -64,7 +74,8 @@ body{
     cursor: pointer;
 
     margin-right: 8px;
-    
+    margin-left: 44%;
+
     padding-left: 16px;
     padding-right: 16px;
     padding-top: 8px;
@@ -80,8 +91,6 @@ body{
     border-width: 1px;
     color: black;
     cursor: pointer;
-
-    margin-right: 8px;
     
     padding-left: 16px;
     padding-right: 16px;
@@ -91,7 +100,11 @@ body{
 
 }
 
-.kofi-button{
+.kofi-button{    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
     background-color: antiquewhite;
     border-color: black;
     border-style: solid;
@@ -99,6 +112,9 @@ body{
     color: black;
     cursor: pointer;
     
+    margin-left: 35%;
+    margin-right: 35%;
+
     padding-left: 16px;
     padding-right: 16px;
     padding-top: 8px;
@@ -115,4 +131,3 @@ body{
     color: yellow;
 
 }
-
