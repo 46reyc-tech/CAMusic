@@ -4,6 +4,15 @@
     }
 }
 
+body{
+    /*add zelda shid to BGlake*/
+    background-color: rgb(10, 85, 40);
+    background-image: url("BGLake.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+}
+
 .toptext{
     font-size: 64px;
     text-align: center;
