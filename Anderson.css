@@ -5,11 +5,9 @@
 }
 
 body{
+    /*add zelda shid to BGlake*/
     background-color: rgb(10, 85, 40);
-    background-image: url("BGvietriver.jpeg");
-    
-    /*![Book logo](/least-github-pages/assets/BGlake.png)*/
-    /*![Lake](/46reyc-tech/CAMusic/BGlake.png)*/
+    background-image: url("BGLake.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100%;
