@@ -1,7 +1,14 @@
-@media screen {
-    article{
-        width: clamp(200px, 50%, 600px);
-    }
+/*desktop*/
+@media (max-width: 1440px) {
+    
+}
+/*tablet*/
+@media (max-width: 1024px) {
+    
+}
+/*phone*/
+@media (max-width: 600px) {
+    
 }
 
 body{
