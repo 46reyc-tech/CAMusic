@@ -1,6 +1,9 @@
-@media all and (max-width: 500px){
-
+@media screen {
+    article{
+        width: clamp(200px, 50%, 600px);
+    }
 }
+
 body{
     /*add zelda shid to BGlake*/
     background-color: rgb(10, 85, 40);
