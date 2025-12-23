@@ -1,11 +1,6 @@
-@media (30em < width < 50em) {
-  /* … */
-}
+@media all and (max-width: 500px){
 
-@media (50em > width > 30em) {
-  /* … */
 }
-
 body{
     /*add zelda shid to BGlake*/
     background-color: rgb(10, 85, 40);
