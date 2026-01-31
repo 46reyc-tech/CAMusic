@@ -1,6 +1,6 @@
 
 body{
-    /*add zelda shid to BGlake*/
+
     background-color: rgb(10, 85, 40);
     background-image: url("BGLake.jpg");
     background-repeat: no-repeat;
@@ -21,24 +21,37 @@ body{
     
 }
 
+
+
 .toptext{
+    
+
     font-size: 64px;
     text-align: center;
+    
 }
 
 .subtitle{
+    font-family: Geneva;
+
     font-size: 24px;
     text-align: center;
+    color: lime;
+
+
 }
 
 .header{
+    font-family: Geneva;
+
     font-weight: bold;
-    font-size: 32px;
+    font-size: 36px;
     text-align: center;
 
 }
 /*GIVE FONTS COLORS AND STROKES*/
 .textknow{
+
     font-size: 24px;
     text-align: center;
     line-height: 32px;
@@ -51,8 +64,10 @@ body{
     padding-left: 48px;
     padding-right: 48px;
     
-    margin-left: 5%;
-    margin-right: 5%;
+    margin: auto;
+
+    
+    width: 550px;
 }
 
 .textrate{
@@ -67,46 +82,43 @@ body{
     padding-top: 5px;
     padding-bottom: 5px;
 
-    margin-left: 5%;
-    margin-right: 5%;
+    margin: auto;
+
+    width: 550px;
 }
 
 .textpay{
-    font-size: 24px;
+    font-family: Geneva;
+
+    font-size: 30px;
     
     text-align: center;
     font-weight: bold;
-
 }
 
 .venmo-button{
     font-size: 16px;
 
-    background-color: antiquewhite;
+    background-color: bisque;
     border-color: black;
     border-style: solid;
-    border-width: 1px;
+    border-width: 2px;
     color: black;
     cursor: pointer;
-
-    margin-right: 8px;
-    margin-left: 44%;
 
     padding-left: 16px;
     padding-right: 16px;
     padding-top: 8px;
     padding-bottom: 8px;
-    text-align: center;
-
 }
 
 .paypal-button {
     font-size: 16px;
 
-    background-color: antiquewhite;
+    background-color: bisque;
     border-color: black;
     border-style: solid;
-    border-width: 1px;
+    border-width: 2px;
     color: black;
     cursor: pointer;
     
@@ -114,8 +126,6 @@ body{
     padding-right: 16px;
     padding-top: 8px;
     padding-bottom: 8px;
-    text-align: center;
-
 }
 
 .insta-button{
@@ -125,10 +135,10 @@ body{
     align-items: center;
     justify-content: center;
 
-    background-color: antiquewhite;
+    background-color: bisque;
     border-color: black;
     border-style: solid;
-    border-width: 1px;
+    border-width: 2px;
     color: black;
     cursor: pointer;
     
@@ -139,10 +149,10 @@ body{
     padding-right: 16px;
     padding-top: 8px;
     padding-bottom: 8px;
-        
 
+    width: 175px;
 
-
+    margin: auto;
 }
 
 .kofi-button{    
@@ -152,10 +162,10 @@ body{
     align-items: center;
     justify-content: center;
 
-    background-color: antiquewhite;
+    background-color: bisque;
     border-color: black;
     border-style: solid;
-    border-width: 1px;
+    border-width: 2px;
     color: black;
     cursor: pointer;
     
@@ -167,9 +177,12 @@ body{
     padding-top: 8px;
     padding-bottom: 8px;
     
+    width: 175px;
+    margin: auto;
 }
 
 .poem{
+
     margin-top: 64px;
     font-size: 16px;
     text-align: center;
