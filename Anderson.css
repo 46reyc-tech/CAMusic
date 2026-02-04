@@ -1,139 +1,179 @@
-
 body{
+    min-height: 800px;
 
-    background-color: rgb(10, 85, 40);
-    background-image: url("BGLake.jpg");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: 100%;
+    /*
+    max-height: 1200px;
+    border: 8px solid black;
+    */
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+    align-items: center;
+    justify-content: center;
+    align-content: center;
 }
 
-/*desktop*/
-@media (max-width: 1440px) {
-    
+
+/*Tablet*/
+@media (min-width: 1024px) {
+    body{
+        max-height: 1200px;
+    }
 }
-/*tablet*/
-@media (max-width: 1024px) {
-    
-}
-/*phone*/
+
+/*Phone*/
 @media (max-width: 600px) {
-    
-}
+    .toptitle{
+        display: flex;
+        flex-shrink: 2;
+    }
+}   
 
+/*
+GET READY TO LEARN FLEXBOX BUDDY
+*/
 
-
-.toptext{
-    
-
+.toptitle{
+    padding-top: 25px;
     font-size: 64px;
     text-align: center;
-    
 }
 
-.subtitle{
+.commission{
+    padding: 25px;
     font-family: Geneva;
-
     font-size: 24px;
-    text-align: center;
     color: lime;
 
+    padding-bottom: 50px;
+    /* 
+    text-align: center;
+    color: crimson;
+    */
+}
+
+.Cimage{
+
+    border: solid red;
 
 }
 
-.header{
-    font-family: Geneva;
+.bio{
+    font-size: 18px;
 
+    line-height: 36px;
+    background-color: rgb(255, 255, 255);
+    max-width: fit-content;
+    
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 16px;
+
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.rates{
+    font-family: Geneva;
     font-weight: bold;
     font-size: 36px;
     text-align: center;
-
-}
-/*GIVE FONTS COLORS AND STROKES*/
-.textknow{
-
-    font-size: 24px;
-    text-align: center;
-    line-height: 32px;
-    background-color: bisque;
-    border-style: solid;
-    border-width: 5px;
-
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-left: 48px;
-    padding-right: 48px;
-    
-    margin: auto;
-
-    
-    width: 550px;
 }
 
-.textrate{
+.boxRates{
+    justify-content: center; 
+
+    flex-direction: column;
     font-size: 24px;
-    text-align: center;
-    line-height: 32px;
+    text-align: center; 
+    line-height: 45px;
     background-color: bisque;
     
     border-style: solid;
     border-width: 5px;
     
     padding-top: 5px;
-    padding-bottom: 5px;
+    /*padding-bottom: 5px;*/
 
-    margin: auto;
-
-    width: 550px;
+    width: 400px;
 }
 
-.textpay{
+.venmo-button{ /*NOT PRESENT ON SCREEN*/
+
+    justify-content: center;
+    
+    font-size: 16px;
+
+    background-color: bisque;
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
+
+    color: black;
+    cursor: pointer;
+
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 8px;
+
+}
+
+.paypal-button { /*NOT PRESENT ON SCREEN*/
+
+    justify-content: center;
+
+    font-size: 16px;
+
+    background-color: bisque;
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
+
+    color: black;
+    cursor: pointer;
+    
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 8px;
+
+}
+
+.consider{
     font-family: Geneva;
-
+    font-weight: bold;
     font-size: 30px;
+    text-align: center;
+}
+
+.boxKnow{
+    font-size: 16px;
+    text-align: center;
+    line-height: 32px;
+    background-color: bisque;
+    border-style: solid;
+    border-width: 5px;
+
+    padding-top: 5px;
+    padding-bottom: 5px;
     
+    /*padding-left: 10px;*/
+    padding-right: 10px;
+
+    max-width: fit-content;
+}
+
+.contact{
+    font-family: Geneva;
+    font-size: 30px; 
     text-align: center;
     font-weight: bold;
 }
 
-.venmo-button{
-    font-size: 16px;
-
-    background-color: bisque;
-    border-color: black;
-    border-style: solid;
-    border-width: 2px;
-    color: black;
-    cursor: pointer;
-
-    padding-left: 16px;
-    padding-right: 16px;
-    padding-top: 8px;
-    padding-bottom: 8px;
-}
-
-.paypal-button {
-    font-size: 16px;
-
-    background-color: bisque;
-    border-color: black;
-    border-style: solid;
-    border-width: 2px;
-    color: black;
-    cursor: pointer;
-    
-    padding-left: 16px;
-    padding-right: 16px;
-    padding-top: 8px;
-    padding-bottom: 8px;
-}
-
-.insta-button{
-    font-size: 16px;
-
+.buttonInsta{
     display: flex;
     align-items: center;
-    justify-content: center;
 
     background-color: bisque;
     border-color: black;
@@ -141,26 +181,21 @@ body{
     border-width: 2px;
     color: black;
     cursor: pointer;
-    
-    margin-left: 35%;
-    margin-right: 35%;
 
+    justify-content: center;
     padding-left: 16px;
     padding-right: 16px;
     padding-top: 8px;
     padding-bottom: 8px;
 
+    font-size: 16px;
     width: 175px;
 
-    margin: auto;
 }
 
-.kofi-button{    
-    font-size: 16px;
-
+.buttonKofi{    
     display: flex;
     align-items: center;
-    justify-content: center;
 
     background-color: bisque;
     border-color: black;
@@ -168,26 +203,45 @@ body{
     border-width: 2px;
     color: black;
     cursor: pointer;
-    
-    margin-left: 35%;
-    margin-right: 35%;
 
+    justify-content: center;
     padding-left: 16px;
     padding-right: 16px;
     padding-top: 8px;
     padding-bottom: 8px;
     
+    font-size: 16px;
     width: 175px;
-    margin: auto;
 }
 
 .poem{
 
-    margin-top: 64px;
+
+    padding-top: 64px;
+
     font-size: 16px;
     text-align: center;
     font-style: italic;
     font-kerning: 7px;
     color: yellow;
 
+    /*position: absolute*/
 }
+
+/*
+.dropdownLink{
+    position: fixed;
+    top: 15%;
+    right: 2%;
+    width: fit-content;
+    height: fit-content;
+    border: 3px solid aqua;
+
+
+    text-decoration: none;
+    background-color: blueviolet;
+    color: cornsilk;
+    padding: 0.7rem 1.2rem;
+    border-radius: 5px;
+}
+*/
