@@ -1,5 +1,7 @@
 body{
     min-height: 800px;
+    
+    /*please find a good font*/
 
     /*
     max-height: 1200px;
@@ -21,6 +23,8 @@ body{
     body{
         max-height: 1200px;
     }
+
+    
 }
 
 /*Phone*/
@@ -29,6 +33,14 @@ body{
         display: flex;
         flex-shrink: 2;
     }
+    .commission{
+        flex-shrink: 2;
+    }
+
+    body{
+        zoom: 2;
+    }
+    
 }   
 
 /*
@@ -37,8 +49,9 @@ GET READY TO LEARN FLEXBOX BUDDY
 
 .toptitle{
     padding-top: 25px;
-    font-size: 64px;
+    font-size: 80px;
     text-align: center;
+    color: #e2a54d;
 }
 
 .commission{
@@ -64,7 +77,11 @@ GET READY TO LEARN FLEXBOX BUDDY
     font-size: 18px;
 
     line-height: 36px;
-    background-color: rgb(255, 255, 255);
+    
+    background-color: #e4f2ea;
+    color: #0c2c47;
+
+
     max-width: fit-content;
     
     border-style: solid;
@@ -78,26 +95,32 @@ GET READY TO LEARN FLEXBOX BUDDY
 .rates{
     font-family: Geneva;
     font-weight: bold;
-    font-size: 36px;
+    font-size: 48px;
     text-align: center;
+    
+    color: #e2a54d;
 }
 
 .boxRates{
     justify-content: center; 
 
     flex-direction: column;
-    font-size: 24px;
+    font-size: 26px;
     text-align: center; 
     line-height: 45px;
-    background-color: bisque;
-    
+
+    background-color: #e4f2ea;
+    border-color: #e2a54d;
+    color: #0c2c47;
+
     border-style: solid;
     border-width: 5px;
     
     padding-top: 5px;
     /*padding-bottom: 5px;*/
+    border-radius: 16px;
 
-    width: 400px;
+    width: 500px;
 }
 
 .venmo-button{ /*NOT PRESENT ON SCREEN*/
@@ -106,12 +129,12 @@ GET READY TO LEARN FLEXBOX BUDDY
     
     font-size: 16px;
 
-    background-color: bisque;
-    border-color: black;
+    background-color: #e4f2ea;
+    border-color: #e2a54d;
     border-style: solid;
     border-width: 2px;
 
-    color: black;
+    color: #e2a54d;
     cursor: pointer;
 
     padding-left: 16px;
@@ -126,12 +149,12 @@ GET READY TO LEARN FLEXBOX BUDDY
 
     font-size: 16px;
 
-    background-color: bisque;
-    border-color: black;
+    background-color: #e4f2ea;
+    border-color: #e2a54d;
     border-style: solid;
     border-width: 2px;
 
-    color: black;
+    color: #e2a54d;
     cursor: pointer;
     
     padding-left: 16px;
@@ -145,41 +168,52 @@ GET READY TO LEARN FLEXBOX BUDDY
     font-weight: bold;
     font-size: 30px;
     text-align: center;
+    color: #e2a54d;
 }
 
 .boxKnow{
     font-size: 16px;
     text-align: center;
     line-height: 32px;
-    background-color: bisque;
+
+    background-color: #e4f2ea;
+    border-color: #e2a54d;
+    color: #0c2c47;
+
     border-style: solid;
     border-width: 5px;
 
     padding-top: 5px;
     padding-bottom: 5px;
     
-    /*padding-left: 10px;*/
+    padding-left: 10px;
     padding-right: 10px;
 
-    max-width: fit-content;
+    border-radius: 16px;
+
+    width: 500px;
 }
 
 .contact{
     font-family: Geneva;
-    font-size: 30px; 
+    font-size: 40px; 
     text-align: center;
     font-weight: bold;
+    color: #e2a54d;
 }
 
 .buttonInsta{
+    order: 1;
+
     display: flex;
     align-items: center;
 
-    background-color: bisque;
-    border-color: black;
+    background-color: #e4f2ea;
+    border-color: #e2a54d;
+
     border-style: solid;
-    border-width: 2px;
-    color: black;
+    border-width: 5px;
+    color: #0c2c47;
     cursor: pointer;
 
     justify-content: center;
@@ -188,20 +222,25 @@ GET READY TO LEARN FLEXBOX BUDDY
     padding-top: 8px;
     padding-bottom: 8px;
 
-    font-size: 16px;
-    width: 175px;
+    border-radius: 16px;
+
+    font-size: 24px;
+    width: 350px;
 
 }
 
 .buttonKofi{    
+    order: 1;
+
     display: flex;
     align-items: center;
 
-    background-color: bisque;
-    border-color: black;
+    background-color: #e4f2ea;
+    border-color: #e2a54d;
+
     border-style: solid;
-    border-width: 2px;
-    color: black;
+    border-width: 5px;
+    color: #0c2c47;
     cursor: pointer;
 
     justify-content: center;
@@ -210,22 +249,33 @@ GET READY TO LEARN FLEXBOX BUDDY
     padding-top: 8px;
     padding-bottom: 8px;
     
-    font-size: 16px;
-    width: 175px;
+    border-radius: 16px;
+
+    font-size: 24px;
+    width: 350px;
 }
 
 .poem{
+    order: 1;
 
+    display: flex;
+    align-self: center;
 
-    padding-top: 64px;
+    padding-top: 2px;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-bottom: 2px;
 
+    width: fit-content;
     font-size: 16px;
     text-align: center;
     font-style: italic;
     font-kerning: 7px;
-    color: yellow;
 
+    color: #0c2c47;
+    background-color: #e2a54d;
     /*position: absolute*/
+    border-radius: 16px;
 }
 
 /*
