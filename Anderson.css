@@ -23,7 +23,10 @@ body{
     body{
         max-height: 1200px;
     }
-
+    .dropdownLink{
+        flex-shrink: 2;
+         padding: 0.5rem .75rem;
+    }    
     
 }
 
@@ -278,20 +281,19 @@ GET READY TO LEARN FLEXBOX BUDDY
     border-radius: 16px;
 }
 
-/*
 .dropdownLink{
     position: fixed;
     top: 15%;
     right: 2%;
     width: fit-content;
     height: fit-content;
-    border: 3px solid aqua;
+    
+    font-weight: bold;
 
-
+    border: 3px solid #e2a54d;
     text-decoration: none;
-    background-color: blueviolet;
-    color: cornsilk;
+    background-color: #e4f2ea;
+    color: #e2a54d;
     padding: 0.7rem 1.2rem;
     border-radius: 5px;
 }
-*/
